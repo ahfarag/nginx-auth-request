@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: nginx-auth-request-web
+    ports:
+     - "80:80"
+  auth-server:
+    image: nginx-auth-request-api
